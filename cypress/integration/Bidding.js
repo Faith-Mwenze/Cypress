@@ -17,7 +17,7 @@ describe("Bidding - normal user ", () => {
         //cancel Bids
         cy.get('[data-testid=MuiDataTableBodyCell-7-0] > :nth-child(2) > .right > .ui').click()
         cy.get('.column > div > .red').click()
-        
+    
 
 
      
